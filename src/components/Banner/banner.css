@@ -1,0 +1,78 @@
+.banner{
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+    background: linear-gradient( to left, rgb(213, 67, 67),rgb(195, 0, 255));
+    filter: drop-shadow(2px 10px 10px rgb(0, 0, 0))
+    
+}
+
+
+.banner-text{
+    margin-left: 2rem;
+}
+.banner-text:hover{
+    text-shadow: 1px  10px 5px black;
+}
+
+.trending{
+    color: #cacaca;
+}
+.latest{
+    color: white;
+}
+
+.banner-offer{
+    color: rgb(212 233 0);
+    font-size: 2.5rem;
+}
+
+
+
+
+
+.banner-shop-btn{
+
+    padding: .5rem;
+    font-size: 1.5rem;
+    background: #000;
+    border:  solid white;
+    cursor: pointer;
+}
+.banner-shop-btn:hover{
+    background: none;
+    font-size: 2rem;
+}
+
+
+
+.banner-img{
+    position: relative;
+    filter: drop-shadow(10px 2px 10px rgb(0, 0, 0))
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .banner-img{
+        width: 8rem;
+        height: 8rem;
+    }
+    .banner-text{
+        font-size: .5rem;
+    }
+    .banner-shop-btn{
+        font-size: 1.5rem;
+        padding: .3rem ;
+    }
+    .banner-offer{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    
+}

@@ -1,0 +1,146 @@
+
+
+/* .nav-container{
+    padding: 0 2rem 0 2rem;
+    background: #000;
+} */
+
+.navbar-fixed{
+    top: 0;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    background: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+    transform: translateY(-80px);
+    animation: stickyHeader 0.3s ease forwards;
+}
+@keyframes stickyHeader {
+    0%{ transform: translateY(-80px);}
+    100%{ transform: translateY(0);}
+    
+}
+    
+
+.navbar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #000000;
+    color: white;
+    
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+}
+
+
+
+
+.logo{
+    color: rgb(255, 94, 0);
+    
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(100px - 2px);
+    
+}
+
+.header-search{
+    font-size: 1.5rem;
+}
+.header-search:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 94, 0);
+    color: rgb(255, 94, 0);
+
+}
+
+.header-home:hover{
+    cursor: pointer;
+    color: rgb(255, 94, 0);
+    border-bottom: 2px solid rgb(255, 94, 0);
+}
+
+.header-product:hover{
+    cursor: pointer;
+    color: rgb(255, 94, 0);
+    border-bottom: 2px solid rgb(255, 94, 0);
+}
+
+.cart-notify{
+    font-size: 1rem;
+    color: black;
+    background: lightgreen;
+    /* background: rgb(255, 94, 0); */
+    border-radius: 0 50% 50% 50%;
+    /* padding: 2px; */
+}
+
+.header-cart{
+    font-size: 1.5rem;
+}
+.header-cart:hover{
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 94, 0);
+
+}
+.mobiel-menu{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.mobiel-menu:hover{
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+}
+
+
+/* *************************************** small size screen ********************************** */
+
+@media screen and (max-width: 600px){
+    
+
+
+}
+@media screen and (max-width: 1024px){
+    .header-btn{
+        display: none;
+    }
+    .mobiel-menu{
+        display: flex;        
+
+    }
+    .show__nav {
+        display: inline;
+        padding: 3rem;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        top: 4.5rem;
+        right: 0;
+        border-radius: 0 0 .5rem  .5rem;
+        z-index: 99;
+
+
+    }
+
+    .hide__nav {
+        display: none;
+    }
+}

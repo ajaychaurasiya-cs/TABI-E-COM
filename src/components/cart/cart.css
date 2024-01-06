@@ -1,0 +1,142 @@
+.cart-container{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    /* backdrop-filter: blur(40px); */
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+
+}
+
+.cart-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-bottom: 2px solid gray;
+    color: gray;
+
+}
+
+.cart-close{
+    font-size: 2rem;
+    
+    display: flex;
+}
+.cart-close:hover{
+    color: coral;
+}
+
+
+/*  ---------------   product list   ----------------  */
+
+
+
+
+
+
+.cart-body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow-y: auto;
+    padding: 5rem 1rem;
+
+}
+
+.total{
+    color: white;
+}
+
+.price{
+    color: black;
+    background: lightgreen;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.item-body{
+    display: flex;
+    gap: 2rem;
+    color: white;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: scroll;
+    
+
+    margin-top: 5rem;
+
+}
+.list-item{
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+.list-name{
+    padding: 2rem;
+    background: rgba(128, 128, 128, 0.409);
+    color: rgb(0, 0, 0);
+    
+
+}
+
+
+.list-item-detail{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    gap: 3rem;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    font-size: 1.5rem;
+}
+.list-img{
+    width: 5rem;
+}
+
+.list-title{
+    gap: 5rem;
+}
+
+.list-input{
+    /* outline: none; */
+    background: none;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid white;
+    font-size: 1rem;
+    padding: .3rem;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    /* .cart-container{
+        background: #000;
+    } */
+    .cart-body{
+        flex-wrap: wrap;
+    }
+
+    .list-item-detail{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .list-title{
+        display: grid;
+        /* align-items: center;
+        justify-content: center; */
+        gap:2rem;
+    }
+}
+

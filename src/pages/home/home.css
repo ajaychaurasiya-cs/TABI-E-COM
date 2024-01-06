@@ -1,0 +1,13 @@
+.carousel{
+transform: rotate(40);    justify-content: center;
+    background: yellow;
+}
+.home-prod{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 2rem;
+}
+

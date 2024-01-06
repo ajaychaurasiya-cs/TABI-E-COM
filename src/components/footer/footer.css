@@ -1,0 +1,71 @@
+.footer-container{
+    width: 100%;
+    background: #000;
+    
+}
+.footer-content{
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 20px;
+    
+}
+       
+.col{
+    
+    max-width: 300px;
+    display: inline
+}
+.title:hover{
+    color: coral;
+}
+.text:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: white;
+}
+.text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+}
+.c-item{
+    color: coral;
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+span text{
+    
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.bottom-bar{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    /* display: flex; */
+}
+.bottom-bar-content{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* text-align: center; */
+    gap: 10px;
+}
+
+.payment-img{
+    width: 30%;
+}

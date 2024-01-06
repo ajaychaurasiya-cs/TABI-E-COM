@@ -1,0 +1,178 @@
+
+.single-container{
+    /* background: yellowgreen; */
+    padding: 5rem;
+}
+
+.row{
+    background: rgb(125, 0, 50);
+    margin-top: 5rem;
+    color: white;
+    flex-flow: wrap;
+    
+}
+
+.single-item{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.single-img{
+    width: 30%;
+}
+
+
+.single-title{
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 200%;
+}
+.single-category{
+    padding: 0.5rem;
+}
+.single-price{
+    padding: 0.5rem;
+}
+.single-rate{
+    padding: 0.5rem;
+    display: flex;
+    gap: 5px;
+}
+.single-des{
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+.single-button{
+    display: flex;
+}
+.single-btn{
+    margin: .5rem;
+    padding: 1rem;
+    display: flex;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+}
+.single-btn:hover{
+    cursor: pointer;
+    padding: .9rem;
+    background: rgb(255, 90, 0);
+    border: 2px solid white;
+    filter: drop-shadow(2px 10px 10px rgb(0, 0, 0))
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .single-item{
+        display: inline;
+    }
+    .single-img{
+        width: 100%;
+
+    }
+    .single-button {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* related product */
+    .related-head-line{
+        font-size: 0.5rem;
+
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .single-item{
+        display: inline;
+    }
+    .single-img{
+        width: 100%;
+
+    }
+    .single-button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/* Related Products */
+
+.related-head-line{
+    margin-top: 3rem;
+    padding: 1rem;
+    color: white;
+    background: rgb(125, 0, 50);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+.marquee{
+    padding: 3rem;
+    filter: drop-shadow(2px 10px 10px rgb(0, 0, 0))
+}
+
+.related-container{
+    display: flex;
+}
+.related-item{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 2rem;
+}
+
+.related-image{
+    width: 10rem;
+    height: 10rem;
+}
+.related-img{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+
+    
+    
+}
+.related-detail{
+    color: white;
+    background: rgb(125, 0, 50);
+}
+.related-title{
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+
+.related-button{
+    display: flex;
+}
+.related-btn{
+    margin: .5rem;
+    padding: .4rem;
+    display: flex;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+}
+.related-btn:hover{
+    cursor: pointer;
+    background: rgb(255, 90, 0);
+    filter: drop-shadow(2px 10px 10px rgb(0, 0, 0))
+}
+
