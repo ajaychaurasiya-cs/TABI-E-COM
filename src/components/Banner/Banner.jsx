@@ -19,10 +19,9 @@ const Banner = () => {
           <strong  className="banner-shop-btn" onClick={() => navigate('/product')}>SHOP NOW</strong>
           </div>
 
-          <img className="banner-img" src="./assets/banner2.png" alt="banner" />
+          <img className="banner-img" src="https://www.pngall.com/wp-content/uploads/2016/04/Shopping-Download-PNG.png" alt="banner" />
         </div>
       
-      {/* <div className='banner'> <img src="./assets/banner1.png"  alt="banner" /></div> */}
     </>
   );
 };

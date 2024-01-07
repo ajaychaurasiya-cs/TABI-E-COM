@@ -68,15 +68,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 
 
 .search-card{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .card2{
     display: flex;
@@ -92,15 +93,15 @@
 }
 .search-img{
     width: 100%;
-}
-
-/* .category{
-    display: flex;
+    
 }
 
 
-.heading{
-    display: flex;
+
+
+/* @media screen and (max-width: 1024px) {
+    .heading{
+        background: yellow;
+    }
 } */
-
 

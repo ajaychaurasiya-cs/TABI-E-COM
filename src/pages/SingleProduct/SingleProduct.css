@@ -1,7 +1,6 @@
 
 .single-container{
-    /* background: yellowgreen; */
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .row{
@@ -27,21 +26,25 @@
 .single-title{
     padding: 0.5rem;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 110%;
 }
 .single-category{
     padding: 0.5rem;
+    font-size: 100%;
 }
 .single-price{
     padding: 0.5rem;
+    font-size: 100%;
 }
 .single-rate{
     padding: 0.5rem;
     display: flex;
     gap: 5px;
+    font-size: 100%;
 }
 .single-des{
     padding: 0.5rem;
+    font-size: 100%;
 }
 
 
@@ -72,6 +75,7 @@
 
 
 @media screen and (max-width: 600px) {
+    
     .single-item{
         display: inline;
     }
@@ -83,16 +87,18 @@
         display: flex;
         justify-content: center;
     }
-
-
+    
+    
     /* related product */
     .related-head-line{
         font-size: 0.5rem;
 
     }
+    
 
 }
 @media screen and (max-width: 1024px) {
+    
     .single-item{
         display: inline;
     }
@@ -142,12 +148,9 @@
     height: 10rem;
 }
 .related-img{
-    /* display: flex; */
     width: 100%;
     height: 100%;
 
-    
-    
 }
 .related-detail{
     color: white;
@@ -157,7 +160,6 @@
     padding: 1rem;
     font-size: 0.9rem;
 }
-
 
 .related-button{
     display: flex;
