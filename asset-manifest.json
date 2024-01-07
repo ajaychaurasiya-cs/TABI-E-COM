@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TABI-E-COM/static/css/main.9c4e35f0.css",
-    "main.js": "/TABI-E-COM/static/js/main.b2161bd0.js",
+    "main.css": "/TABI-E-COM/static/css/main.0a84d6da.css",
+    "main.js": "/TABI-E-COM/static/js/main.1d906f15.js",
     "index.html": "/TABI-E-COM/index.html",
-    "main.9c4e35f0.css.map": "/TABI-E-COM/static/css/main.9c4e35f0.css.map",
-    "main.b2161bd0.js.map": "/TABI-E-COM/static/js/main.b2161bd0.js.map"
+    "main.0a84d6da.css.map": "/TABI-E-COM/static/css/main.0a84d6da.css.map",
+    "main.1d906f15.js.map": "/TABI-E-COM/static/js/main.1d906f15.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c4e35f0.css",
-    "static/js/main.b2161bd0.js"
+    "static/css/main.0a84d6da.css",
+    "static/js/main.1d906f15.js"
   ]
 }
