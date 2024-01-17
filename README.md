@@ -19,7 +19,7 @@ https://ajaychaurasiya-cs.github.io/TABI-E-COM/
 Clone the project
 
 ```bash
-  git clone https://github.com/ssahibsingh/React_E-Commerce
+  git clone https://github.com/ajaychaurasiya-cs/TABI-E-COM.git
 ```
 
 Go to the project directory
