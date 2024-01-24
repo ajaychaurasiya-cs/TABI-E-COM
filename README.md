@@ -6,6 +6,8 @@ A Ecommerce Website made with React.js
 ## Demo
 https://ajaychaurasiya-cs.github.io/TABI-E-COM/
 
+![pt-1](https://github.com/ajaychaurasiya-cs/TABI-E-COM/assets/154124190/125bad76-55d9-49b4-8fcf-a0f40e59d551)
+
 ## Features
 
 - Easy to integrate with Backend
